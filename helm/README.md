@@ -68,5 +68,10 @@ helm install mysql-db ./mysql-chart
 ```
 
 #### Section 9: List the Deployment
-mysql-chart
+```bash
+# list the charts (Optional)
+helm list
+
+# Check the status
+helm status <chart name>
 ```
